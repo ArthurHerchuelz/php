@@ -1,6 +1,6 @@
 <?php
-$object = 'stylo';
-$message = 'Salut';
+$km = 'stylo';
+$ = 'Salut';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
