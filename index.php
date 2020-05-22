@@ -1,5 +1,5 @@
 <?php
-$km = 1;
+$name= "Arthur";
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -10,13 +10,7 @@ $km = 1;
   <body>
     <h1>
       <?php
-      echo $km ;
-      ?>
-      <?php
-      echo $km + 2;
-      ?>
-      <?php
-      echo $km + 124 ;
+      echo "Bonjour $name , comment vas-tu?" ;
       ?>
     </h1>
   </body>
