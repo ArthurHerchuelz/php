@@ -1,11 +1,11 @@
 <?php
-$name= "Arthur";
+$answer= 'yes';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8/">
-    <title>Exercice3</title>
+    <title>Exercice5</title>
   </head>
   <body>
     <h1>
