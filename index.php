@@ -19,7 +19,7 @@ else if ($answer = 'no')
     echo 'Vous  avez répondu "non"';
 }
 else {
-    echo 'Vous  n\'avez pas répondu "non"';
+    echo 'Vous  n\'avez pas répondu';
 }
 ?>
     </h1>
