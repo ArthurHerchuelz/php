@@ -1,6 +1,7 @@
 <?php
-$object = 'stylo';
-$message = 'Salut';
+$firstname = 'Arthur';
+$lastname = 'Herchuelz';
+$age = 28;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -11,7 +12,7 @@ $message = 'Salut';
   <body>
     <h1>
       <?php
-      echo $object,$message;
+      echo $firstname , $lastname , $age ;
       ?>
     </h1>
   </body>
