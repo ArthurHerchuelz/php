@@ -7,7 +7,7 @@ $age = 28;
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8/">
-    <title>Exercice1</title>
+    <title>Exercice2</title>
   </head>
   <body>
     <h1>
