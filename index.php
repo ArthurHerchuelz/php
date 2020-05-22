@@ -5,7 +5,7 @@ $name= "Arthur";
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8/">
-    <title>Exercice3</title>
+    <title>Exercice4</title>
   </head>
   <body>
     <h1>
