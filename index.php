@@ -13,10 +13,12 @@ $km = 1;
       echo $km ;
       ?>
       <?php
-      echo $km + 2;
+      $km = 3 ;
+      echo $km ;
       ?>
       <?php
-      echo $km + 124 ;
+      $km = 125 ;
+      echo $km ;
       ?>
     </h1>
   </body>
