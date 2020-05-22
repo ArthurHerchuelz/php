@@ -1,5 +1,5 @@
 <?php
-$name= "Arthur";
+$name= 'Arthur';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -8,10 +8,6 @@ $name= "Arthur";
     <title>Exercice4</title>
   </head>
   <body>
-    <h1>
-      <?php
-      echo "Bonjour $name , comment vas-tu?" ;
-      ?>
-    </h1>
+    <h1>Bonjour <?= $name; ?>, comment vas-tu?</h1>
   </body>
 </html>
