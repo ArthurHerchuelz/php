@@ -9,10 +9,6 @@ $message = 'Salut';
     <title>Exercice1</title>
   </head>
   <body>
-    <h1>
-      <?php
-      echo $object,$message;
-      ?>
-    </h1>
+    <h1><?= $object; ?> <?= $message; ?></h1>
   </body>
 </html>
