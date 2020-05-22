@@ -10,8 +10,18 @@ $answer= 'yes';
   <body>
     <h1>
       <?php
-      echo "Bonjour $name , comment vas-tu?" ;
-      ?>
+if ($answer = 'yes')
+{
+    echo 'Vous  avez répondu "oui"';
+}
+else if ($answer = 'no')
+{
+    echo 'Vous  avez répondu "non"';
+}
+else {
+    echo 'Vous  n\'avez pas répondu "non"';
+}
+?>
     </h1>
   </body>
 </html>
