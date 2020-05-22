@@ -1,17 +1,22 @@
 <?php
-$km = 'stylo';
-$ = 'Salut';
+$km = 1;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8/">
-    <title>Exercice1</title>
+    <title>Exercice3</title>
   </head>
   <body>
     <h1>
       <?php
-      echo $object,$message;
+      echo $km ;
+      ?>
+      <?php
+      echo $km + 2;
+      ?>
+      <?php
+      echo $km + 124 ;
       ?>
     </h1>
   </body>
