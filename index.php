@@ -1,5 +1,5 @@
 <?php
-$km = 1;
+$string = str_shuffle('bonjour');
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -9,15 +9,7 @@ $km = 1;
   </head>
   <body>
     <h1>
-      <?= $km; ?>
-      <?php
-      $km = 3;
-      echo $km;
-      ?>
-      <?php
-      $km = 125;
-      echo $km;
-      ?>
+      <?= $string ?>
     </h1>
   </body>
 </html>
