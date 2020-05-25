@@ -1,6 +1,6 @@
 <?php
-$name= 'Sidonie';
-$name2 = 'Fabrice';
+$number1 = 1;
+$number2 = 3;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -11,12 +11,18 @@ $name2 = 'Fabrice';
 <body>
   <h1>
     <?php
-    function DireBonjour($name, $name2)
-    {
-      $hello = 'Bonjour ' . $name . ' et ' . $name2 . ' !';
-      return $hello;
+    function comparison($number1, $number2){
+    if ($number1 > $number2) {
+      return 'Le premier nombre est plus grand';
     }
-    echo DireBonjour($name, $name2);
+    else if ($number1 < $number2) {
+      return 'Le premier nombre est plus petit';
+    }
+    elseif ($number1 == $number2) {
+      return 'Les deux nombres sont identiques';
+    }
+    }
+    echo comparison($number1, $number2);
     ?>
   </h1>
 </body>
