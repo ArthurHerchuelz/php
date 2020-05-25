@@ -1,22 +1,18 @@
 <?php
-$age = 28;
+$départements = array (
+'02' => 'Aisne'
+'59' => 'Nord'
+'60' => 'Oise'
+'62' => 'Pas-de-Calais'
+'80' => 'Somme');
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title>Exercice 3 partie 2</title>
+  <title>Exercice 3 partie 3</title>
 </head>
 <body>
-  <h1>
-    <?php
-    if ($age >= 18){
-      echo 'Tu es majeur';
-    }
-    else {
-      echo 'Tu n\'es pas majeur';
-    }
-    ?>
-  </h1>
+  <p></p>
 </body>
 </html>
