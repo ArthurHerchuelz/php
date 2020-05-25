@@ -14,9 +14,9 @@ $départements = array (
 </head>
 <body>
   <p><?php
-  foreach($départements as $element)
+  foreach($départements as $cle => $element)
 {
-    echo $element . '<br />';
+    echo "Le département $element a le numéro $cle <br />";
 } ?></p>
 </body>
 </html>
