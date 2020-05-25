@@ -10,11 +10,11 @@ $answer= 'yes';
   <body>
     <h1>
       <?php
-if ($answer = 'yes')
+if ($answer == 'yes')
 {
     echo 'Vous  avez répondu "oui"';
 }
-else if ($answer = 'no')
+else if ($answer == 'no')
 {
     echo 'Vous  avez répondu "non"';
 }
