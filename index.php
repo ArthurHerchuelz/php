@@ -5,9 +5,14 @@ $months = array ('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aou
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title>Exercice 1 partie 3</title>
+  <title>Exercice 3 partie 3</title>
 </head>
 <body>
-  <p><?= $months[5]; ?></p>
+  <p><?php
+  for ($numero = 0; $numero < 12; $numero++)
+{
+    echo $months[$numero] . '<br />'; // affichera $prenoms[0], $prenoms[1] etc.
+}
+?></p>
 </body>
 </html>
