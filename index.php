@@ -1,5 +1,5 @@
 <?php
-$gender = 'Homme';
+$age = 28;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -10,11 +10,11 @@ $gender = 'Homme';
 <body>
   <h1>
     <?php
-    if ($gender == 'Homme'){
-      echo 'C\'est un développeur!!!';
+    if ($age >= 18){
+      echo 'Tu es majeur';
     }
     else {
-      echo 'C\'est une développeuse!!!';
+      echo 'Tu n\'es pas majeur';
     }
     ?>
   </h1>
