@@ -1,27 +1,20 @@
 <?php
-$age = 28;
-$gender = 'femme';
+$gender = 'Homme';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title>Exercice 2 partie 2</title>
+  <title>Exercice 3 partie 2</title>
 </head>
 <body>
   <h1>
     <?php
-    if ($age >= 18 AND $gender == 'homme'){
-      echo 'vous êtes un homme majeur';
+    if ($gender == 'Homme'){
+      echo 'C\'est un développeur!!!';
     }
-    else if ($age < 18 AND $gender == 'homme'){
-      echo 'vous êtes un homme mineur';
-    }
-    else if ($age >= 18 AND $gender == 'femme'){
-      echo 'vous êtes un femme majeure';
-    }
-    else if ($age < 18 AND $gender == 'femme'){
-      echo 'vous êtes un femme mineure';
+    else {
+      echo 'C\'est une développeuse!!!';
     }
     ?>
   </h1>
