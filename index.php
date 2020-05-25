@@ -1,5 +1,7 @@
 <?php
-$months = array ('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre');
+$name = 'Arthur';
+$firstName = 'Herchuelz';
+$age = 28;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -8,11 +10,15 @@ $months = array ('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aou
   <title>Exercice 3 partie 3</title>
 </head>
 <body>
-  <p><?php
-  for ($numero = 0; $numero < 12; $numero++)
-{
-    echo $months[$numero] . '<br />'; // affichera $prenoms[0], $prenoms[1] etc.
-}
-?></p>
+  <p>
+    <?php
+    function DireBonjour($name, $firstName ,$age)
+    {
+      $hello = 'Bonjour ' . $name .' '. $firstName . ', tu as ' . $age . ' ans !';
+      return $hello;
+    }
+    echo DireBonjour($name, $firstName, $age);
+    ?>
+  </p>
 </body>
 </html>
