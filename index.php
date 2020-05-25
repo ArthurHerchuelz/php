@@ -1,7 +1,6 @@
 <?php
 $firstString = 'bonjour';
 $secondString = 'Arthur';
-
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -12,10 +11,12 @@ $secondString = 'Arthur';
   <body>
     <h1>
       <?php
-      function hello($firstString , $secondString )
+      function hello($firstString, $secondString)
       {
-        echo 'Bonjour ' . $nom . ' !<br />';
+        $hello = $firstString .' '. $secondString;
+        return $hello;
       }
+        echo hello();
       ?>
     </h1>
   </body>
