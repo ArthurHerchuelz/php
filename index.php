@@ -9,9 +9,7 @@ $number = 140;
   </head>
   <body>
     <h1>
-      <?php
-      echo ($number + 30)/2;
-      ?>
+      <?= ($number + 30)/2; ?>
     </h1>
   </body>
 </html>
