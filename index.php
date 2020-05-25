@@ -1,5 +1,7 @@
 <?php
-$string = str_shuffle('bonjour');
+$firstString = 'bonjour';
+$secondString = 'Arthur';
+
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -9,7 +11,12 @@ $string = str_shuffle('bonjour');
   </head>
   <body>
     <h1>
-      <?= $string; ?>
+      <?php
+      function hello($firstString , $secondString )
+      {
+        echo 'Bonjour ' . $nom . ' !<br />';
+      }
+      ?>
     </h1>
   </body>
 </html>
