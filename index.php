@@ -23,6 +23,9 @@ $gender = 'femme';
     else if ($age < 18 AND $gender == 'femme'){
       echo 'vous êtes un femme mineure';
     }
+    else {
+      echo 'Il y a un petit soucis, non?';
+    }
     ?>
   </h1>
 </body>
