@@ -5,11 +5,11 @@ $string = str_shuffle('bonjour');
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8"/>
-    <title>Exercice3</title>
+    <title>Exercice 1 partie 4</title>
   </head>
   <body>
     <h1>
-      <?= $string ?>
+      <?= $string; ?>
     </h1>
   </body>
 </html>
