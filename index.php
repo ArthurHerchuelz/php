@@ -14,9 +14,9 @@ $départements = array (
 </head>
 <body>
   <p><?php
-  foreach($départements as $cle => $element)
+  foreach($départements as $element)
 {
-    echo '[' . $cle . ']' . $element . '<br />';
+    echo $element . '<br />';
 } ?></p>
 </body>
 </html>
