@@ -10,10 +10,14 @@ $counter = 0;
 <body>
   <p>
     <?php
-  while ($counter < 100) {
-      $counter += 1;
-      echo $counter . '/br' ;
-  }
+    while ($counter < 300) {
+      if ($counter%2){
+        $counter += 1;
+      } else {
+        $counter += 1;
+        echo $counter . '<br />';
+      }
+    }
     ?>
   </p>
 </body>
