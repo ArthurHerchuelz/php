@@ -1,7 +1,5 @@
 <?php
-$name = 'Arthur';
-$firstName = 'Herchuelz';
-$age = 28;
+$counter = 0;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -12,12 +10,10 @@ $age = 28;
 <body>
   <p>
     <?php
-    function DireBonjour($name, $firstName ,$age)
-    {
-      $hello = 'Bonjour ' . $name .' '. $firstName . ', tu as ' . $age . ' ans !';
-      return $hello;
-    }
-    echo DireBonjour($name, $firstName, $age);
+  while ($counter < 100) {
+      $counter += 1;
+      echo $counter . '/br' ;
+  }
     ?>
   </p>
 </body>
