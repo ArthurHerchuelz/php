@@ -1,5 +1,5 @@
 <?php
-$départements = array (
+$departments = array (
   '02' => 'Aisne',
   '59' => 'Nord',
   '60' => 'Oise',
@@ -15,14 +15,10 @@ $départements = array (
   <body>
     <ul>
       <?php
-      foreach($départements as $cle => $element)
-      { ?>
-        <li>
-        <?php
-          echo "Le département $element a le numéro $cle";
-        ?>
-        </li>
-        <?php } ?>
+      foreach($departments as $cle => $element) {
+      ?>
+        <li>Le département <?= $element; ?> a le numéro <?= $cle; ?></li>
+      <?php } ?>
     </ul>
   </body>
   </html>
